@@ -3,26 +3,24 @@
     padding: 0%;
     margin: 0%;
     box-sizing: none;
+    background-color: black;
 }
+
 .stopwatch
 {
-    border: 2px solid black;
-    border-radius: 5px;
-    width: max-content;
-    margin: auto;
-    
-    width: 200px;
-    height: 140px;
 
+    
+    margin: auto;
     padding: 10px;
     text-align: center;
 }
 .screen
 {
-    border: 2px solid black;
-    height: 70px;
-    border-radius: 5px ;
-    font-size: larger;
+  
+    
+  
+    font-size: 60px;
+    color:white
     
 
 }
@@ -35,6 +33,7 @@
     height: 30px;
     cursor: pointer;
     border-radius: 5px ;
+    color:white;
 
     
     
@@ -47,6 +46,7 @@
     height: 30px;
     cursor: pointer;
     border-radius: 5px;
+    color:white;
 
 }
 #button-reset
@@ -56,13 +56,9 @@
     height: 30px;
     cursor: pointer;
     border-radius: 5px ;
+    color:white;
 
 }
-.button
-{
-    padding-left: 6px;
-    border-radius: 5px ;
-    
-}
+
 
 

@@ -1,3 +1,5 @@
+
+
 window.onload = function() 
 {
     var seconds = 00 ;
@@ -27,16 +29,15 @@ buttonreset.onclick = function()
     clearInterval(Interval);
     tens = '00';
     seconds = "00";
-    appendTens.innerHTML = "tens";
-    appendSeconds.innerHTML = "seconds";
+    appendTens.innerHTML = "00";
+    appendSeconds.innerHTML = "00";
 
 }
 function startTimer()
 {
     tens++;
     if(tens <= 9)
-    {
-        appendTens.innerHTML = "0"+ tens ;
+    {          appendTens.innerHTML = "0"+ tens ;
     }
 
     if (tens > 9)
